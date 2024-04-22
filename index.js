@@ -48,7 +48,7 @@ calcular.addEventListener("click", function(){
     if(pesoEmGramas < 10.5){
         alert(`O peso em gramas por tubo é ${pesoEmGramas.toFixed(2)} , ideal para uma quad Ultra-light`)
     } else if(pesoEmGramas < 12.5){ // Reorganizei as condições aqui
-        alert(`O peso em gramas por tubo é ${pesoEmGramas.toFixed(2)} , ideal para uma quad Standart`)
+        alert(`O peso em gramas por tubo é ${pesoEmGramas.toFixed(2)} , ideal para uma quad Standard`)
     } else if(pesoEmGramas < 15.5){ // e aqui
         alert(`O peso em gramas por tubo é ${pesoEmGramas.toFixed(2)} , ideal para uma quad Semi-ventilada ou Ventilada`)
     } else { // Alterei para else, já que se nenhuma das condições anteriores for atendida, será maior que 16
