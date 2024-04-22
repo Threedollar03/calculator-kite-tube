@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(12, 12, 12);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.main__container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    background-color: aliceblue;
+    
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.418);
+}
+select {
+    width: 50%;
+    height: 30px;
+    border-radius: 3px;
+}
+#widthTube{
+    width: 50%;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid black;
+    
+}
+button {
+    width: 50%;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid black;
+    font-weight: 700;
+}
